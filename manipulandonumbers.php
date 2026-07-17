@@ -1,6 +1,6 @@
 <?php
 /*Manipulação de números */
-//1- number_format() - sem separador personalizado
+//1- number_format() - sem separador personalizado Exibe a nota com duas casas decimais.
 $numero = 15.6789;
 echo ("Ex. number_format(): " . number_format($numero,2));
 echo ("<br>");
@@ -9,7 +9,7 @@ $preco = 12.5;
 echo ("Ex. number_format(): " . number_format($preco,2));
 echo ("<br>");
 
-//2- number_format() - mais adequado ao Brasil
+//2- number_format() - mais adequado ao Brasil Exibe a nota com duas casas decimais.
 $salario = 3500.5;
 echo ("Ex. number_format(): R$ " . number_format($salario,2,",",","));
 echo ("<br>");
@@ -26,7 +26,7 @@ echo ("Ex. round: R$ " . round($nota,0));
 echo ("<br>");
 //------------------------------------------------
 
-//4- ceil() sempre arredonda para cima
+//4- ceil() sempre arredonda para baixo
 $nota = 8.80;
 echo ("Ex. ceil: R$ " . ceil($nota));
 echo ("<br>");

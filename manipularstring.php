@@ -31,7 +31,7 @@ echo ("Ex. strtolower:" . strtolower($email));
 echo ("<br>");
 //--------------------------------------------
 
-//4) ucfirst() - Primeira letra em maiúsculo
+//4) ucfirst() - Primeira letra em minuscula
 $bairro = "ressaca";
 echo ("Ex. ucfirst:" . ucfirst($bairro));
 echo ("<br>");
@@ -42,7 +42,7 @@ echo ("<br>");
 
 //-------------------------------------------
 
-//5) uswords() - Primeira letra por palavra em maiúsculo
+//5) ucwords() - Primeira letra por palavra em maiúsculo
 $rua = "avenida afonso pena";
 echo ("Ex. ucwords:" . ucwords($rua));
 echo ("<br>");
