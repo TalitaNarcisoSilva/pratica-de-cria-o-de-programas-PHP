@@ -21,6 +21,7 @@ Faça:
 $produto = "Notebook Gamer";
 $preco = 4599.989;
 $desconto = -350;
+$valor = 5;
 
 //Processamento
 
@@ -44,7 +45,13 @@ $desconto = -350;
     echo ("1-" . strtoupper($produto) . "<br>"); // Exibição toda em maiusculo 
     echo ("2-" . strtolower($produto) . "<br>");// Exibição toda em minusculo
     echo ("3-" . strrev($produto) . "<br>"); // Inverte o texto
-    echo ("4-" .)
+    echo ("4-" . substr($produto, 0,8) . "<br>"); //Exibe apenas a primeira palavra
+    echo ("5- R$" . number_format($preco,2,",",".") . "<br>"); // formatação de numeros
+    echo ("6-" . round($preco) . "<br>"); 
+    echo ("7-" . ceil($preco) . "<br>"); // Exibição de preço arredondado pra cima
+    echo ("8-" . floor($preco) . "<br>");// Exibição de preço arredondado pra baixo
+    echo ("9-" . abs($desconto) . "<br>"); // Exibição de valor absoluto
+    echo ("10-" . pow($valor,0.5) . "<br>");
 
 
     ?>
